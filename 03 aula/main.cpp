@@ -3,6 +3,8 @@
 
 using namespace std;
 
+
+// Estrutura do no
 struct Node {
 
     int valor;
@@ -13,6 +15,7 @@ struct Node {
 
 
 int main() {
+
 
     Node* raiz = new Node{10, nullptr, nullptr};
 
@@ -37,12 +40,6 @@ int main() {
     cout << raiz->esquerdo->direito->valor << " ";
     cout << raiz->direito->esquerdo->valor << " ";
     cout << raiz->direito->direito->valor << endl;
-
-
-
-    // -------------------------
-    // PARTE 2 - VETOR
-    // -------------------------
 
     vector<int> arvore = {10, 5, 15, 2, 7, 12, 20};
 
