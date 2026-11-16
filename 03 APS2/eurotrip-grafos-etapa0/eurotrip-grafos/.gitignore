@@ -1,0 +1,15 @@
+# Arquivos gerados na compilacao
+build/
+cmake-build-*/
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.lib
+# IDE
+.vs/
+.vscode/ipch/
+# SO
+.DS_Store
+Thumbs.db

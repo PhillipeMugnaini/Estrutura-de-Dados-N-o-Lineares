@@ -31,6 +31,7 @@ void postOrder(Node* raiz){
     }
 };
 
+
 int main() {
 
     Node* raiz = new Node{10, nullptr, nullptr};

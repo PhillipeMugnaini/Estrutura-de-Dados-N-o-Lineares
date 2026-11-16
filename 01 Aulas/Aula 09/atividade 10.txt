@@ -1,0 +1,15 @@
+1. O que representa cada vértice?
+
+Cada vértice representa uma pessoa dentro de uma rede de amizades, como um usuário de uma rede social.
+
+2. O que representa cada aresta?
+
+Cada aresta representa uma conexão de amizade entre duas pessoas. Por exemplo, se Phillipe e Eduardo são amigos, existe uma aresta ligando os dois vértices.
+
+3. A relação é direcionada ou não direcionada? Por quê?
+
+A relação é não direcionada, pois estamos considerando amizades mútuas. Se Phillipe é amigo de Eduardo, Eduardo também é amigo de Phillipe, não sendo necessário indicar uma direção.
+
+4. Existe algum peso que poderia ser associado às arestas?
+
+Sim. Podemos atribuir pesos às arestas para representar a frequência de interação entre as pessoas, como a quantidade de mensagens trocadas. Quanto maior o peso, maior a interação entre os amigos.
